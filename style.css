@@ -1,0 +1,256 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.maincontainer{
+
+    border: px solid red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.subconatiner{
+    border: px solid blue;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+.uppercontainer{
+    border: px solid green;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e72e7;
+}
+
+.logo{
+    border: px solid black;
+    width: 10%;
+    height: 60%;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchbar{
+    border: 1px solid rgb(255, 255, 255);
+    width: 40% ;
+    height: 50%;
+    border-radius: 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.searchip{
+
+ width: 100%;
+ height: 100%;
+ padding: 5px;
+
+}
+.searchicon{
+    border: px solid blue;
+    height: 70% a;
+    width: 10%;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.loginbutton{
+
+    border: px solid blue;
+    width: 8% ;
+    height: 45%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.seller{
+
+border: px solid green;
+width: 8% ;
+height: 60%;
+margin: 25px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.more{
+    border: px solid rgb(252, 37, 4);
+    width: 4% ;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.arrow {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+.cart{
+    border: px solid rgb(4, 45, 252);
+    width: 8% ;
+    height: 60%;
+    margin:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+.lowercontainer{
+
+    border: px solid red;
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.topoffers{
+  
+    border: px solid blue;
+    width: 8%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grocery{
+    border:1px solid blue;
+    width: 8%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+
+}
+
+.mobiles{
+    border:px solid blue;
+    width: 8%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fashion{
+
+    border:px solid blue;
+    width: 8%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}    
+
+.electronics{
+    border: 1px solid blue;
+    width: 8%;
+    height: 50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+}
+
+.home{
+    border:px solid blue;
+    width: 8%;
+    height: 50%;
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.appliances{
+    border:px solid blue;
+    width: 8%;
+    height: 50%;
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.travel{
+    border:px solid blue;
+    width: 8%;
+    height: 50%;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.beauty{
+    border: px solid blue;
+    width: 9%;
+    height: 50%;
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.bike{
+    border: px solid blue;
+    width: 8%;
+    height: 60%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+p{
+    font-size: 12px;
+    padding: 5px;
+}
